@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Patologia</string>
+    <string name="action_sobre">Sobre</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="grau_risco_baixo">Grau de Risco: Baixo</string>
+    <string name="grau_risco_baixo_moderado">Grau de Risco: Baixo à Moderado</string>
+    <string name="grau_risco_medio">Grau de Risco: Médio</string>
+    <string name="grau_risco_grave">Grau de Risco: Grave</string>
+
+
+    <string name="parede_horizontal">HORIZONTAIS</string>
+    <string name="parede_vertical">VERTICAIS</string>
+    <string name="parede_inclinada">INCLINADAS</string>
+
+    <string name="parede_descricao_titulo">Diferença fissura, rachadura e trincas:</string>
+
+    <string name="parede_descricao_text">A fissura é uma abertura fina, alongada e superficial,
+        que geralmente atinge a pintura e o revestimento. As trincas podem atingir a estrutura
+        da parede, podendo afetar a segurança da casa. As rachaduras têm aberturas maiores,
+        mais profundas e acentuadas.</string>
+
+    <string name="parede_horizontal_text">Trinca horizontal próxima ao teto pode ser
+        devido ao adensamento da argamassa de assentamento dos blocos ou falta de amarração
+        da parede com a viga superior. Possíveis deformações dos elementos estruturais horizontais
+        e encunhamentos inapropriados podem causar sobrecargas inadequadas nas alvenarias,
+        favorecendo o aparecimento de fissuras. Já as rachaduras raramente manifestam e na
+        maioria dos casos não oferecem comprometimento a estrutura. Para tratamento, solicite
+        a visita de um Engenheiro Civil.</string>
+
+    <string name="parede_vertical_text">Trinca vertical na parede é causada, geralmente pela falta
+        de amarração da parede com algum elemento estrutural como pilar ou outra parede que nasce
+        naquele ponto do outro lado da parede. Fissuras verticais podem aparecer na espessura de
+        argamassa vertical entre os blocos ou se desenvolver na vertical. No caso das rachaduras
+        surgem geralmente no meio das vigas (entre um pilar e outro) e são ocasionadas por excesso
+        de carga. Para tratamento, solicite a visita de um Engenheiro Civil.</string>
+
+    <string name="parede_inclinado_text">Trincas inclinadas nas paredes é sintoma de recalques,
+        um dos lados da fundação não aguentou ou não está aguentando o peso e afundou ou está
+        afundando. No caso das rachaduras são ocasionadas também por excesso de carga, mostra
+        que a viga está querendo se separar do pilar em que está apoiada e se manifestam geralmente
+        próximo a intercessão da viga com o pilar. Para tratamento, solicite a visita de um
+        Engenheiro Civil, ou entre em contato com a DEFESA CIVIL.</string>
+
+    <string name="teto_trinca">TRINCAS EM \nLAJE DE CONCRETO</string>
+    <string name="teto_infiltracao">INFILTRAÇÃO</string>
+
+    <string name="teto_trinca_text">Trincas no teto podem ser causadas
+        pela deformação da laje, falta de resistência ou excesso de peso
+        sobre a laje, pode ser grave, peça o PARECER de um engenheiro de estruturas.</string>
+
+    <string name="teto_infiltracao_text">Possivelmente um dos piores vilões da construção
+        civil, a infiltração consiste em estragos causados por água e umidade em excesso.
+        Ela acarreta uma série de consequências patológicas como corrosão de armaduras,
+        eflorescência, degradação do concreto e argamassa, empolamento e bolhas em tintas,
+        curtos circuitos etc., gerando altos custos de manutenção e recuperação.
+        Para tratamento, solicite a visita de um Engenheiro Civil.</string>
+
+    <string name="piso_trinca">TRINCAS</string>
+    <string name="piso_abaulamento">ABAULAMENTO</string>
+    <string name="piso_gretamento">GRETAMENTO</string>
+
+    <string name="piso_trinca_text">Trincas no piso podem ser produzidas por vibrações de
+        motores, excesso de peso sobre a laje ou fraqueza da laje; verificar se há trincas
+        na parte de baixo, se tiver pode ser grave, peça o PARECER de um engenheiro de estruturas.</string>
+
+    <string name="piso_abaulamento_text">O abaulamento do piso pode ser causado por recalque das estruturas,
+        por expansão do subsolo, colapso do revestimento, por movimentação térmica da laje, ou seja, por variação
+        de temperatura; quando causados por recalques, são acompanhados por trincas inclinadas nas paredes;
+        os solos muito compressíveis, com a presença da água, se expandem e empurram o piso para cima.
+        Para tratamento, solicite a visita de um Engenheiro Civil.</string>
+
+    <string name="piso_gretamento_text">É caracterizado por uma série de rupturas de espessura inferior a 1 mm,
+        ocorridas no esmalte das peças cerâmicas, causando um efeito craquelado. É uma manifestação patológica
+        irreparável, sendo necessária a troca das peças com defeitos, podendo comprometer a impermeabilização da
+        peça, mas normalmente é só estética.</string>
+
+    <string name="estrutura_corrosao">CORROSÃO</string>
+
+    <string name="estrutura_corrosao_text">O processo destrói o aço e causa danos estruturais. Por motivos de
+        falha de impermeabilização, o concreto pode ser “lavado”, expondo as armaduras e correndo sérios riscos
+        de perder a sua capacidade de resistência aos esforços solicitantes. Se a corrosão realmente ocorrer, a
+        recuperação estrutural deve começar pelo diagnóstico das possíveis causas, feito por um especialista.
+        Para tratamento, solicite a visita de um Engenheiro Civil, ou entre em contato com a DEFESA CIVIL.</string>
+
+    <string name="sobre_text">Este aplicativo foi desenvolvido como resultado de um trabalho desenvolvido pela turma de Engenharia Civil do terceiro período da
+    faculdade UniSales.\n\nIntegrantes do grupo: Alef Moreira, André de Andrade, Hellen Andriato, Lorrayne Costa, Kareen Silva, Neemias Lacerda, Lorena Christ.</string>
+
+    <string name="sobre_dev">Desenvolvedor: Rafael Salgado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

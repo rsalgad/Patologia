@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.unisales.patologia.Fragments.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.unisales.patologia.Fragments.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.unisales.patologia.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_paredeFragment"
+            app:destination="@id/paredeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_pisoFragment"
+            app:destination="@id/pisoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tetoFragment"
+            app:destination="@id/tetoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_estruturaFragment"
+            app:destination="@id/estruturaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sobreFragment"
+            app:destination="@id/sobreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paredeFragment"
+        android:name="com.unisales.patologia.Fragments.ParedeFragment"
+        android:label="fragment_parede"
+        tools:layout="@layout/fragment_parede" >
+        <action
+            android:id="@+id/action_paredeFragment_to_paredeHorizontalFragment"
+            app:destination="@id/paredeHorizontalFragment" />
+        <action
+            android:id="@+id/action_paredeFragment_to_paredeVerticalFragment"
+            app:destination="@id/paredeVerticalFragment" />
+        <action
+            android:id="@+id/action_paredeFragment_to_paredeInclinadoFragment"
+            app:destination="@id/paredeInclinadoFragment" />
+        <action
+            android:id="@+id/action_paredeFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paredeHorizontalFragment"
+        android:name="com.unisales.patologia.Fragments.ParedeHorizontalFragment"
+        android:label="fragment_parede_horizontal"
+        tools:layout="@layout/fragment_parede_horizontal" >
+        <action
+            android:id="@+id/action_paredeHorizontalFragment_to_paredeFragment"
+            app:destination="@id/paredeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paredeInclinadoFragment"
+        android:name="com.unisales.patologia.Fragments.ParedeInclinadoFragment"
+        android:label="fragment_parede_inclinado"
+        tools:layout="@layout/fragment_parede_inclinado" >
+        <action
+            android:id="@+id/action_paredeInclinadoFragment_to_paredeFragment"
+            app:destination="@id/paredeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paredeVerticalFragment"
+        android:name="com.unisales.patologia.Fragments.ParedeVerticalFragment"
+        android:label="fragment_parede_vertical"
+        tools:layout="@layout/fragment_parede_vertical" >
+        <action
+            android:id="@+id/action_paredeVerticalFragment_to_paredeFragment"
+            app:destination="@id/paredeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pisoFragment"
+        android:name="com.unisales.patologia.Fragments.PisoFragment"
+        android:label="PisoFragment" >
+        <action
+            android:id="@+id/action_pisoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_pisoFragment_to_pisoTrincaFragment"
+            app:destination="@id/pisoTrincaFragment" />
+        <action
+            android:id="@+id/action_pisoFragment_to_pisoAbaulamentoFragment"
+            app:destination="@id/pisoAbaulamentoFragment" />
+        <action
+            android:id="@+id/action_pisoFragment_to_pisoGretamentoFragment"
+            app:destination="@id/pisoGretamentoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pisoTrincaFragment"
+        android:name="com.unisales.patologia.Fragments.PisoTrincaFragment"
+        android:label="PisoTrincaFragment" >
+        <action
+            android:id="@+id/action_pisoTrincaFragment_to_pisoFragment"
+            app:destination="@id/pisoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pisoAbaulamentoFragment"
+        android:name="com.unisales.patologia.Fragments.PisoAbaulamentoFragment"
+        android:label="PisoAbaulamentoFragment" >
+        <action
+            android:id="@+id/action_pisoAbaulamentoFragment_to_pisoFragment"
+            app:destination="@id/pisoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pisoGretamentoFragment"
+        android:name="com.unisales.patologia.Fragments.PisoGretamentoFragment"
+        android:label="PisoGretamentoFragment" >
+        <action
+            android:id="@+id/action_pisoGretamentoFragment_to_pisoFragment"
+            app:destination="@id/pisoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tetoFragment"
+        android:name="com.unisales.patologia.Fragments.TetoFragment"
+        android:label="TetoFragment" >
+        <action
+            android:id="@+id/action_tetoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_tetoFragment_to_tetoTrincaFragment"
+            app:destination="@id/tetoTrincaFragment" />
+        <action
+            android:id="@+id/action_tetoFragment_to_tetoInfiltracaoFragment"
+            app:destination="@id/tetoInfiltracaoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tetoTrincaFragment"
+        android:name="com.unisales.patologia.Fragments.TetoTrincaFragment"
+        android:label="TetoTrincaFragment" >
+        <action
+            android:id="@+id/action_tetoTrincaFragment_to_tetoFragment"
+            app:destination="@id/tetoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tetoInfiltracaoFragment"
+        android:name="com.unisales.patologia.Fragments.TetoInfiltracaoFragment"
+        android:label="TetoInfiltracaoFragment" >
+        <action
+            android:id="@+id/action_tetoInfiltracaoFragment_to_tetoFragment"
+            app:destination="@id/tetoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/estruturaFragment"
+        android:name="com.unisales.patologia.Fragments.EstruturaFragment"
+        android:label="EstruturaFragment" >
+        <action
+            android:id="@+id/action_estruturaFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_estruturaFragment_to_estruturaCorrosaoFragment"
+            app:destination="@id/estruturaCorrosaoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/estruturaCorrosaoFragment"
+        android:name="com.unisales.patologia.Fragments.EstruturaCorrosaoFragment"
+        android:label="EstruturaCorrosaoFragment" >
+        <action
+            android:id="@+id/action_estruturaCorrosaoFragment_to_estruturaFragment"
+            app:destination="@id/estruturaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sobreFragment"
+        android:name="com.unisales.patologia.Fragments.SobreFragment"
+        android:label="fragment_sobre"
+        tools:layout="@layout/fragment_sobre" >
+        <action
+            android:id="@+id/action_sobreFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
